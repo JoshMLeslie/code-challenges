@@ -1,0 +1,13 @@
+$lightest: #D4E6FF;
+$light: #0073FE;
+$dark: #033C59;
+$white: #fff;
+$black: #000;
+$warn: #E5EA03;
+$danger: #EA1D17;
+
+// main card shadow
+// @include shadow
+@mixin shadow {
+	filter: drop-shadow(0px 12px 12px rgba(0, 0, 0, 0.25)); 
+}

@@ -1,3 +1,5 @@
+@import './assets/colors';
+
 body {
   margin: 0;
   font-family: 'Roboto', 'Oxygen',
@@ -5,9 +7,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+	background-color: $lightest;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+	text-decoration: none;
 }
